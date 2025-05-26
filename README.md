@@ -7,11 +7,11 @@ Instructions to Start the application
 
 2.In the command line type "npm install"
 
-3.All the required dependencies will be installed using the above commmand
+3.Required dependencies will be installed using the above commmand
 
-4.Navigate to "src" folder.
+4.All the project files will be present in "src" folder.
 
-5.Run the application by typing "npm run dev" command
+5.Run the application by typing "npm run dev" command in todolist-main folder where "package.json" file is present.
 
 Thanks and regards,
 
