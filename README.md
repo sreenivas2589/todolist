@@ -11,7 +11,7 @@ Instructions to Start the application
 
 4.All the project files will be present in "src" folder.
 
-5.Run the application by typing "npm run dev" command in todolist-main folder where "package.json" file is present.
+5.Run the application by typing "npm run dev" command in "todolist-main" folder where "package.json" file is present.
 
 Thanks and regards,
 
