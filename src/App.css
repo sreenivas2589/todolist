@@ -1,0 +1,227 @@
+
+.header{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    border:2px solid #A0937E;
+    height:100px;
+    width:800px;
+
+}
+
+.entirecomponent{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.indexandmessage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    width:800px;
+}
+
+
+.checkeditdel input {
+    height: 38px;
+    width: 38px;
+}
+
+
+.editsection input{
+    height:40px;
+    width:690px;
+    font-size:1.4rem;
+}
+
+.editsection{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+
+.editsection button {
+    height: 48px;
+    width: 110px;
+    background-color:rgba(31,161,244,0.8);
+    font-size:1.2rem;
+    color:white;
+    transition:all ease-in-out 0.4s;
+    cursor:pointer;
+}
+
+.editsection button:hover{
+    background-color:rgba(31,161,244,1.0);
+}
+
+
+.totaldisplay {
+    border: 2px solid #736B5C;
+    margin: 10px;
+}
+
+
+.header input {
+    height: 30px;
+    width: 500px;
+    font-size: 1.7rem;
+    box-shadow: 2px 2px 5px #786868;
+    background-color: #1E2835;
+    color: white;
+    border: 2px solid white;
+    font-family:Raleway;
+}
+
+.display button:nth-of-type(1) {
+    background: url(icons/delete.png);
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:none;
+    transition:all ease-in-out 0.4s;
+    transform:rotateZ(0deg);
+
+}
+
+
+.entirecomponent>button{
+    font-size:1.5rem;
+    background-color:#26A1F4;
+    cursor:pointer;
+    transition:all ease-in-out 0.3s;
+    color:white;
+    border-radius:6px;
+}
+
+.entirecomponent > button:hover{
+    background-color:cornflowerblue;
+    border-radius:10px;
+}
+
+.display button:nth-of-type(1):hover {
+    transform: rotateZ(360deg);
+}
+
+.display button:nth-of-type(2) {
+    background: url(icons/pen.png);
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    transition: all ease-in-out 0.4s;
+    transform: rotateZ(0deg);
+
+}
+
+.display button:nth-of-type(2):hover{
+    transform:rotateZ(360deg)
+}
+
+
+.header button {
+    background-color: #fff;
+    color: #121212;
+    cursor: pointer;
+    font-family:Raleway;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height:36px;
+    width:100px;
+    transition:all ease-in-out 0.2s;
+    border:0;
+    transform:translateY(0px);
+    
+}
+
+.header button:hover{
+    background-color:#26A1F4;
+    transform:translateY(-3px);
+    box-shadow:2px 2px 1px #ffd800;
+}
+
+.entirecomponent button:nth-child(1) {
+    background-color: #fff;
+    color: #121212;
+    cursor: pointer;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: 36px;
+    width: 100px;
+    transition: all ease-in-out 0.2s;
+    border: 0;
+}
+
+
+@media only screen and (max-width: 880px){
+
+    .header{
+        width:700px;
+    }
+
+    .header input{
+        width:300px;
+    }
+
+    .indexandmessage{
+        width:700px;
+    }
+
+    .editsection input {
+        width: 580px;
+    }
+
+}
+
+@media only screen and (max-width: 742px){
+
+    .header{
+        width:500px;
+    }
+
+    .header input{
+        width:200px;
+        font-size:1.2rem;
+    }
+
+    .indexandmessage {
+        width: 500px;
+    }
+
+    .editsection input {
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .header{
+        width:400px;
+    }
+
+    .header input{
+        width:200px;
+        font-size:1.2rem;
+    }
+
+    .indexandmessage {
+        width: 400px;
+    }
+
+    .editsection input {
+        width: 280px;
+    }
+}
